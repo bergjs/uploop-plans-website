@@ -1,0 +1,34 @@
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 900;
+  padding-left: 15px;
+}
+
+.logo-image {
+  width: 40px;
+}
+
+.ctas-button-2 {
+  background: #444!important;
+}
+
+.feature3 {
+  border-bottom: none !important;
+}
+
+p, h3, li {
+  margin-top: 20px;
+}
+
+a.logo-area {
+  text-decoration: none;
+  color: black;
+}
+
