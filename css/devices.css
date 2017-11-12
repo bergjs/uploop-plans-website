@@ -297,6 +297,21 @@
 	left: -100px;
 	bottom: -5px;
 }
+
+@media screen and (max-width: 900px) {
+	.centerdevices .computerwrapper .computer:after,
+.centerdevices .computerwrapper .computer:before {
+		content: "";
+		position: absolute;
+		border-radius: 3px 3px 0 0;
+		width: calc(100%);
+		height: 10px;
+		background: linear-gradient(to right, rgba(246,250,253,1) 0%,rgba(221,226,233,1) 6%,rgba(246,250,253,1) 15%,rgba(246,250,253,1) 42%,rgba(230, 230, 230, 1) 42%,rgba(246,250,253,1) 45%,rgba(246,250,253,1) 53%,rgba(230, 230, 230, 1) 56%,rgba(246,250,253,1) 56%, rgba(246,250,253,1) 85%,rgba(221,226,233,1) 94%,rgba(246,250,253,1) 100%);
+		left: 0px;
+		bottom: -5px;
+	}
+}
+
 .centerdevices .computerwrapper .computer:before {
 	height: 6px;
 	bottom: -11px;
