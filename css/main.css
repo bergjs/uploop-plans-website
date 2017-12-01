@@ -99,6 +99,7 @@ p.paragraph {
 }
 .spread {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .center {
   align-items: center;
