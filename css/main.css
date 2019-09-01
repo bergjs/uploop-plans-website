@@ -49,7 +49,7 @@ body {
   }
 }
 .paragraph {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 32px;
   font-weight: 100;
 }
@@ -181,11 +181,14 @@ p.paragraph {
 	.header	.col-6 {
 		width: 100%;
 	}
+	.col-6 {
+		width: 100%;
+	}
 }.ctas-input {
 	outline: none;
 	border: none;
 	border-radius: 3px;
-	font-size: 15px;
+	font-size: 18px;
 	height: 40px;
 	line-height: 40px;
 	padding: 0 15px;
@@ -262,7 +265,7 @@ p.paragraph {
 	padding: 0 30px;
 	background: #fff;
 	border-radius: 3px;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
@@ -292,7 +295,8 @@ p.paragraph {
 }
 .footer .nav-link {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 10px 40px;
+	text-align: center;
 }.ctas-button,
 .ctas-button-2 {
 	display: inline-block;
@@ -301,7 +305,7 @@ p.paragraph {
 	padding: 0 30px;
 	background: #fff;
 	border-radius: 3px;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;

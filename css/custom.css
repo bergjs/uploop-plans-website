@@ -32,3 +32,17 @@ a.logo-area {
   color: black;
 }
 
+.container-flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container-flex {
+    flex-direction: column;
+  }
+}
